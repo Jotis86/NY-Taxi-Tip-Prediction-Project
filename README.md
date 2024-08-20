@@ -25,24 +25,19 @@ This project performs the following steps:
   
 ## 🛠️ Development Process
 - 📥 Data Import: The NY taxi dataset is imported from the seaborn library.
-  
 - 📊 Descriptive Statistics: Descriptive statistics are generated to understand the distribution and central tendencies of the features.
-  
 - 🧹 Data Cleaning: Missing values are handled by filling them with the mode for categorical columns. Duplicates are checked and removed, and relevant columns are selected for further analysis.
-  
 - 📈 Data Visualization: Various visualizations are created using seaborn and matplotlib to explore the data. This includes:
-- 📉 Distribution of the Tip: This plot shows the distribution of tip amounts.
-- 📊 Tip vs. Distance: This plot illustrates the relationship between tip amount and distance traveled.
-- 📈 Tip vs. Total Fare: This plot shows the relationship between tip amount and total fare.
-- 💳 Tip by Payment Method: This plot displays the distribution of tips based on different payment methods.
-- ⏱️ Tip vs. Trip Duration: This plot shows the relationship between tip amount and trip duration.
-- 👥 Tip by Number of Passengers: This plot illustrates the distribution of tips based on the number of passengers.
-  
+   - 📉 Distribution of the Tip: This plot shows the distribution of tip amounts.
+   - 📊 Tip vs. Distance: This plot illustrates the relationship between tip amount and distance traveled.
+   - 📈 Tip vs. Total Fare: This plot shows the relationship between tip amount and total fare.
+   - 💳 Tip by Payment Method: This plot displays the distribution of tips based on different payment methods.
+   - ⏱️ Tip vs. Trip Duration: This plot shows the relationship between tip amount and trip duration.
+   - 👥 Tip by Number of Passengers: This plot illustrates the distribution of tips based on the number of passengers.
 🌲 Model Training: A Random Forest classifier is applied to predict the tip amount. The process involves:
-- Splitting the data into training and testing sets.
-- Training the model on the training data.
-- Evaluating the model on the test data.
-  
+   - Splitting the data into training and testing sets.
+   - Training the model on the training data.
+   - Evaluating the model on the test data.
 - 📉 Results: The model’s performance is evaluated using metrics such as accuracy score and a confusion matrix. Visualizations are created to present the results.
 - 📝 Manual Testing: The model is tested with manually inputted data to verify its predictions.
 
