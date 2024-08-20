@@ -38,8 +38,21 @@ This project performs the following steps:
    - Splitting the data into training and testing sets.
    - Training the model on the training data.
    - Evaluating the model on the test data.
-- 📉 Results: The model’s performance is evaluated using metrics such as accuracy score and a confusion matrix. Visualizations are created to present the results.
-- 📝 Manual Testing: The model is tested with manually inputted data to verify its predictions.
+     
+## 📉 Results: The performance of the RandomForest model has been evaluated using various error metrics and the coefficient of determination. The results obtained are as follows:
+ - Mean Absolute Error (MAE): Provides an average measure of the absolute errors between the predictions and the actual values.
+ - Mean Squared Error (MSE): Calculates the average of the squared errors, which penalizes larger errors more.
+ - Root Mean Squared Error (RMSE): Is the square root of the MSE, providing a measure in the same units as the original data.
+ - Coefficient of Determination (R²): Indicates the proportion of the variance in the dependent data that is predictable from the independent variables.
+   
+ - Additionally, several charts were created to evaluate the results:
+   - Scatter Plot of Predictions vs. Actual Values: This chart shows how the model’s predictions compare with the actual values. The red line represents the ideal case where the predictions are exactly equal to the 
+     actual values.
+   - Residuals Plot: This chart shows the distribution of residuals (prediction errors). A good model should have residuals approximately normally distributed around zero.
+   - Feature Importance: This chart shows the relative importance of each feature in the Random Forest model. Features with higher importance have a greater impact on the model’s predictions.
+
+## 📝 Manual Testing
+ - The model is tested with manually inputted data to verify its predictions.
 
 ## 🏆 Results
 The Random Forest classifier achieved excellent results in predicting the tip amounts for NY taxi rides. The model’s accuracy was high, and the visualizations provided clear insights into the relationships between features and tip amounts.
