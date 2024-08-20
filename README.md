@@ -34,7 +34,7 @@ This project performs the following steps:
    - 💳 Tip by Payment Method: This plot displays the distribution of tips based on different payment methods.
    - ⏱️ Tip vs. Trip Duration: This plot shows the relationship between tip amount and trip duration.
    - 👥 Tip by Number of Passengers: This plot illustrates the distribution of tips based on the number of passengers.
-🌲 Model Training: A Random Forest classifier is applied to predict the tip amount. The process involves:
+- 🌲 Model Training: A Random Forest classifier is applied to predict the tip amount. The process involves:
    - Splitting the data into training and testing sets.
    - Training the model on the training data.
    - Evaluating the model on the test data.
