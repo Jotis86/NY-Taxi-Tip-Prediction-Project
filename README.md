@@ -39,11 +39,12 @@ This project performs the following steps:
    - Training the model on the training data.
    - Evaluating the model on the test data.
      
-## 📉 Results: The performance of the RandomForest model has been evaluated using various error metrics and the coefficient of determination. The results obtained are as follows:
- - Mean Absolute Error (MAE): Provides an average measure of the absolute errors between the predictions and the actual values.
- - Mean Squared Error (MSE): Calculates the average of the squared errors, which penalizes larger errors more.
- - Root Mean Squared Error (RMSE): Is the square root of the MSE, providing a measure in the same units as the original data.
- - Coefficient of Determination (R²): Indicates the proportion of the variance in the dependent data that is predictable from the independent variables.
+## 📉 Results
+ - The performance of the RandomForest model has been evaluated using various error metrics and the coefficient of determination. The results obtained are as follows:
+   - Mean Absolute Error (MAE): Provides an average measure of the absolute errors between the predictions and the actual values.
+   - Mean Squared Error (MSE): Calculates the average of the squared errors, which penalizes larger errors more.
+   - Root Mean Squared Error (RMSE): Is the square root of the MSE, providing a measure in the same units as the original data.
+   - Coefficient of Determination (R²): Indicates the proportion of the variance in the dependent data that is predictable from the independent variables.
    
  - Additionally, several charts were created to evaluate the results:
    - Scatter Plot of Predictions vs. Actual Values: This chart shows how the model’s predictions compare with the actual values. The red line represents the ideal case where the predictions are exactly equal to the 
