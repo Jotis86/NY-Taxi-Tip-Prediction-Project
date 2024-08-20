@@ -2,7 +2,7 @@
 
 ## 🎯 Objective
 
-The objective of this project is to build a classification model to predict the tip amount for taxi rides in New York City using a dataset from the seaborn library. The project involves data cleaning, visualization, and applying a Random Forest classifier to achieve high accuracy in predictions.
+The objective of this project is to build a regression model to predict the tip amount for taxi rides in New York City using a dataset from the seaborn library. The project involves data cleaning, visualization, and applying a Random Forest model to achieve high accuracy in predictions.
 
 ## 🛠️ Functionality
 
