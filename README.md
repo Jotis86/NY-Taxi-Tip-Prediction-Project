@@ -1,4 +1,4 @@
-# 🚖 NY Taxi Tip Prediction Project 🚖
+# 🚖 **NY Taxi Tip Prediction Project** 🚖
 
 ### 🎯 Objective
 The objective of this project is to build a regression model to predict the tip amount for taxi rides in New York City using a dataset from the seaborn library. The project involves data cleaning, visualization, and applying a Random Forest model to achieve high accuracy in predictions.
@@ -63,6 +63,10 @@ The Random Forest classifier achieved excellent results in predicting the tip am
 
 ### 🌐 Streamlit App
 A Streamlit app has been created to allow users to test the model interactively. Users can input their own data to see the predicted tip amounts and explore the model's performance.
+
+### 📂 Project Structure
+- **App**: Contains the Streamlit app for interactive model testing.
+- **Cuaderno Jupyter Taxis NY**: Jupyter Notebook with the full analysis, visualizations, and model training process.
 
 ### 📧 Contact
 For any questions or further information, please contact me at: jotaduranbon@gmail.com
