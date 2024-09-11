@@ -1,4 +1,4 @@
-🚖 # NY Taxi Tip Prediction Project 🚖
+# 🚖 NY Taxi Tip Prediction Project 🚖
 
 ### 🎯 Objective
 The objective of this project is to build a regression model to predict the tip amount for taxi rides in New York City using a dataset from the seaborn library. The project involves data cleaning, visualization, and applying a Random Forest model to achieve high accuracy in predictions.
